@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>YouTube</title>
+  </head>
+  <body>
+    <!-- ----------------navbar start----------------- -->
+    <header class="header">
+      <div class="header_logo">
+        <i id="menu" class="material-icons afterSmall"> menu </i>
+        <i class="material-icons menuHide" id="backBtn"> west </i>
+        <img class="afterSmall youtubeLogo" src="images/toutubelogo.png" alt="" />
+      </div>
+      <div class="header_search smallMenu">
+        <form action="" >
+          
+          <input id="search_video" type="text" placeholder="search" autofocus />
+          <button class="searchBtn"><i class="material-icons "> search </i></button>
+        </form>
+      </div>
+      <div class="header_menu afterSmall">
+        <i class="material-icons show show-search"> search </i>
+        <i class="material-icons dayNight"> brightness_4 </i>
+        <i class="material-icons"> notifications </i>
+        <i class="material-icons show"> account_circle </i>
+      </div>
+    </header>
+    <!-- ----------------navbar end ---------------- -->
+    <!-- ----------------main body start----------------- -->
+
+    <!-- ----------sidebar start----------------- -->
+    <div class="mainBody">
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar_catagories">
+          <div class="sidebar_catagory">
+            <i class="material-icons"> home </i>
+            <span>Home</span>
+          </div>
+          <div class="sidebar_catagory">
+            <i class="material-icons"> movie </i>
+            <span>movie</span>
+          </div>
+          <div class="sidebar_catagory">
+            <i class="material-icons"> subscriptions </i>
+            <span>subscriptions</span>
+          </div>
+          <hr />
+
+          <div class="sidebar_catagory">
+            <i class="material-icons"> video_library </i>
+            <span>library</span>
+          </div>
+          <div class="sidebar_catagory" id="historySideBtn">
+            <i  class="material-icons"> history </i>
+            <span>history</span>
+          </div>
+          <div class="sidebar_catagory">
+            <i class="material-icons"> smart_display </i>
+            <span>Your Videos</span>
+          </div>
+          <div class="sidebar_catagory" id="watchLaterSideBtn">
+            <i class="material-icons"> watch_later </i>
+            <span>watch later</span>
+          </div>
+          <div class="sidebar_catagory" id="likeSideBtn">
+            <i class="material-icons"> thumb_up </i>
+            <span>liked videos</span>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <!-- ---------- sidebar end ---------------- -->
+
+      <!-- -------------------video section start------------ -->
+      <div class="videos">
+
+        <div class="wrapper" id="top" >
+          <div class="icon" ><i id="left" class="material-icons sliderArrow">chevron_left</i></div>
+
+          <ul class="tabs-box">
+            <li class="tab" id="cpp">cpp</li>
+            <li class="tab" id="java">java</li>
+            <li class="tab" id="python">python</li>
+            <li class="tab" id="react">react</li>
+            <li class="tab" id="angular">angular</li>
+            <li class="tab" id="bootstrap">bootstrap</li>
+            <li class="tab" id="mongodb">mongodb</li>
+            <li class="tab" id="jquery">jquery</li>
+            <li class="tab" id="html">html</li>
+            <li class="tab" id="css">css</li>
+            <li class="tab" id="mysql">mysql</li>
+            <li class="tab" id="nodejs">nodejs</li>
+            <li class="tab" id="expressjs">expressjs</li>
+          </ul>
+          <div class="icon" ><i id="right" class="material-icons sliderArrow">navigate_next</i></div>
+          
+        </div>
+
+
+        <div class="video_player" >
+          <iframe
+            id="player_vid"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/T7BMndEDYLc"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+          <div class="subscribeVideo" >
+        
+            <span id="likeVidBtn" class="material-icons">thumb_up </span>
+            <span id="watchLaterBtn" class="material-icons">watch_later </span>
+       
+          </div>
+        </div>
+
+        <div class="video_container">
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+          <!-- -------single video start ------- -->
+          <div class="video">
+            <div class="video_thambnail">
+              <img src="images/Q&A.jpg" alt="" />
+            </div>
+            <div class="video_details">
+              <div class="title">
+                <h3>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, possimus.
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- ----------single video end----- -->
+        </div>
+      </div>
+
+      <!-- -------------------video section end------------ -->
+    </div>
+    <!-- ----------------main body end ---------------- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="wrapper.js"></script>
+  </body>
+</html>
